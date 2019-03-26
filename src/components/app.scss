@@ -1,0 +1,46 @@
+.rsd-container {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Courier New';
+  height: 40px;
+  position: relative;
+  width: 240px;
+  user-select: none;
+
+  .display {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    .value {
+      padding-left: 16px;
+      width: calc(100% - 20px);
+    }
+    
+    .icon {
+      width: 20px;
+    }
+  }
+
+  .rsd-dropdown {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+
+    .list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        padding: 8px 12px;
+
+        span {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
